@@ -20,6 +20,13 @@ This repository contains my hands-on QA practice covering manual testing, API te
 - Used pytest for test discovery and execution
 - Implemented fixtures for browser setup/teardown
 
+  
+## 📂 Repository Structure
+- `selenium/` – Web UI automation using Selenium & pytest
+- `api-tests/` – Postman API test collection (GET/POST with assertions)
+- `bug-reports/` – Sample bug reports in spreadsheet format
+
+
 ## 🛠 Tools & Technologies
 - Python
 - Selenium WebDriver
