@@ -63,3 +63,18 @@ The request should be rejected with 400 Bad Request, but the API returns 201 Cre
 ## Linked Test Case:
 
 - API-TC-06 – Validate content creation with missing required field (title)
+
+## Regression Test
+
+Regression test was executed after identifying the defect.
+
+- Same request was re-sent using Postman
+- API behavior remained unchanged
+- Validation issue still persists
+
+## Regression Result
+- ❌ Fail
+
+## Status
+- Open
+
