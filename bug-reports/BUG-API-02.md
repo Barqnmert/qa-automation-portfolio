@@ -19,7 +19,7 @@ The request should be rejected with 400 Bad Request, but the API returns 201 Cre
 ## Steps to Reproduce
 1. Send a POST request to `/posts`
 2. Use the following request body without the required `title` field:
-3. 3. Send the request
+3. Send the request
 
 ```json
 {
