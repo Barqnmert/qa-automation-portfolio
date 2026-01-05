@@ -32,3 +32,18 @@
 
 ## Status
 - Open
+## Regression Test
+
+Regression test was executed after identifying the defect.
+
+- Same request was re-sent using Postman
+- API behavior remained unchanged
+- Validation issue still persists
+
+## Regression Result
+- ❌ Fail
+
+## Status
+- Open
+
+
