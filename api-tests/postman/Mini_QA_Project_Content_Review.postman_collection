@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "8e19fba4-e89d-4349-b486-0657e7baaa30",
+		"name": "Content Review API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51233092",
+		"_collection_link": "https://baran-mertztrk2004-4223179.postman.co/workspace/Mini-QA-Project-%25E2%2580%2593-Content-Revie~39039f07-3ccb-4172-ace9-5beae273ed4f/collection/51233092-8e19fba4-e89d-4349-b486-0657e7baaa30?action=share&source=collection_link&creator=51233092"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API-TC-02 Get single content",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API-TC-03 Create content",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API-TC-04 Create content with empty body (negative)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API-TC-06 Validate content creation with missing required field (title)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
