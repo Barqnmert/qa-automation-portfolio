@@ -72,3 +72,77 @@ This project simulates a real content review platform where reviewers classify c
 - Understanding when an issue is a bug vs an improvement
 - Connecting API test failures to Jira defects
 - Building a structured QA portfolio suitable for real-world projects
+
+---
+
+## 🔗 Jira Integration & QA Traceability
+
+This repository follows a **real-world QA workflow** using **Jira** for test case management, defect tracking, regression testing, and improvement proposals.
+
+The project demonstrates how **manual testing, API testing, and defect lifecycle management** are handled together in a professional QA process.
+
+---
+
+### 🧪 Jira Project Overview
+
+- **Project Name:** Mini QA Project – Content Review
+- **Tool:** Jira (Atlassian)
+- **Testing Types Covered:**
+  - Manual Testing
+  - API Testing (Postman)
+  - Negative & Positive Scenarios
+  - Regression Testing
+  - Improvement Analysis
+
+---
+
+### 📋 Test Cases Implemented
+
+#### Manual Test Cases
+- **TC-01** – Validate guideline compliance classification  
+- **TC-02** – Validate KPI accuracy calculation  
+- **TC-03** – Validate guideline update regression behavior  
+
+#### API Test Cases (Postman)
+- **API-TC-04** – Validate content creation with empty request body (negative)
+- **API-TC-06** – Validate content creation when required field (title) is missing
+
+---
+
+### 🐞 Bug Reports
+
+The following defects were identified during testing and logged in Jira:
+
+- **BUG-01** – Incorrect content classification after guideline update
+- **BUG-API-01** – API allows content creation with empty request body
+- **BUG-API-02** – API allows content creation when required field (title) is missing
+
+Each bug includes:
+- Clear reproduction steps
+- Expected vs Actual results
+- Impact analysis
+- Priority & severity assessment
+
+---
+
+### 🔄 Regression Testing
+
+Regression tests were executed after identifying defects to verify system stability.
+
+- Manual and API regression tests confirm that validation issues still persist.
+- Failed regression results indicate **missing backend validation logic**.
+
+---
+
+### 💡 Improvement Proposals
+
+Not all findings were classified as bugs. The following improvements were proposed:
+
+- **IM-01** – Improve guideline version visibility during content review
+- **IM-02** – Improve KPI dashboard loading speed and add loading indicator
+
+---
+
+### 🔁 QA Traceability Flow
+
+
